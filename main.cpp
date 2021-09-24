@@ -6,6 +6,7 @@
 #include <fstream>
 #include <time.h>
 
+
 using namespace std;
 class admin //Admin class
 {
@@ -26,6 +27,7 @@ public:
     void check_attendence();
     void search_attendence();
 };
+
 class employee : public admin //Employee class
 {
 public:
